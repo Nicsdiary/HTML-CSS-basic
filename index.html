@@ -1,58 +1,40 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="asdf.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Nic's diary</title>
+    <title>Welcome to Kokoa Clone</title>
   </head>
-
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
       </div>
-
       <div class="status-bar__column">
         <span>18:43</span>
       </div>
-
       <div class="status-bar__column">
         <span>110%</span>
         <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
-    </div>
-
+    
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Nic's diary</h1>
-
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
       <p class="welcome-header__text">
-        If you have a Kakao Account,
-        <br />
-        log in with your email or phone number.
+        If you have a Kokoa Account, log in with your email or phone number.
       </p>
     </header>
-
-    <div>
-      <form id="login-form" class="login-form">
-        <input
-          type="text"
-          class="email_text"
-          placeholder="email or phone number"
-        />
-
-        <input type="password" class="password_text" placeholder="Password" />
-        <input type="submit" value="Log In" />
-        <input type="submit" value="Log In" />
-        <a href="#">Find Kakao account or password</a>
-      </form>
-    </div>
-
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
     <script
-      src="https://kit.fontawesome.com/0dc2f3d3f6.js"
+      src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
     ></script>
   </body>
