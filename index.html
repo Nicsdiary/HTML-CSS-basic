@@ -1,20 +1,24 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="asdf.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Nic's diary</title>
   </head>
+
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
       </div>
+
       <div class="status-bar__column">
         <span>18:43</span>
       </div>
+
       <div class="status-bar__column">
         <span>110%</span>
         <i class="fas fa-battery-full fa-lg"></i>
@@ -22,20 +26,30 @@
       </div>
     </div>
 
-    <header class="wecomle-header">
+    <header class="welcome-header">
       <h1 class="welcome-header__title">Welcome to Nic's diary</h1>
+
       <p class="welcome-header__text">
-        If you have a Kakao Account, log in with your email or phone number
+        If you have a Kakao Account,
+        <br />
+        log in with your email or phone number.
       </p>
     </header>
 
-    <form id="log-in form">
-      <input type="text" placeholder="email or phone number" />
-      <input type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Kakao account or password</a>
-    </form>
+    <div>
+      <form id="login-form" class="login-form">
+        <input
+          type="text"
+          class="email_text"
+          placeholder="email or phone number"
+        />
+
+        <input type="password" class="password_text" placeholder="Password" />
+        <input type="submit" value="Log In" />
+        <input type="submit" value="Log In" />
+        <a href="#">Find Kakao account or password</a>
+      </form>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/0dc2f3d3f6.js"
