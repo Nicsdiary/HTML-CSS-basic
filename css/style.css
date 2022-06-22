@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
 @import "status-bar.css";
+@import "variables.css";
 
 
 body {
@@ -34,14 +35,16 @@ body {
 #login-form input {
   border:none;
   font-size:18px;
-  border-bottom:1px solid rgba(0, 0, 0, 0.3);
+  border-bottom:1px solid rgba(0, 0, 0, 0.2);
   padding:15px 0px;
   margin-bottom:25px;
+  transition:border-color 0.4s ease-in-out;
 }
 #login-form input::placeholder {
   color:rgba(0,0,0,0.4);
   
 }
 #login-form input:focus {
-  border-color:rgba(0, 0, 0, 0.3);
+  border-bottom:3px solid var(--blue)
+  
 }
