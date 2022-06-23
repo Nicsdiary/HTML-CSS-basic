@@ -130,3 +130,7 @@ input:focus {
 a{
   color:#2e363e;
 }
+
+*{
+  background-color: whitesmoke;
+}
