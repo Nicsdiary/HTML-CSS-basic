@@ -1,0 +1,10 @@
+.find-icons {
+    display:flex;
+    justify-content: space-between;
+}
+
+.Find-icons__icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
