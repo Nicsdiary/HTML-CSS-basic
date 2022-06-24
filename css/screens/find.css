@@ -5,6 +5,10 @@
 
 .Find-icons__icon{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    
+}
+.Find-icons__icon i {
+    font-size:35px;
 }
