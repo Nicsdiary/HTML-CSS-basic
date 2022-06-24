@@ -6,6 +6,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-components.css";
+@import "components/badge.css";
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -15,4 +16,6 @@ body {
 height: 1000vh;
 color:#485a5d;
 }
-
+.main-screen {
+  padding:opx var(--horizontal-space)
+}

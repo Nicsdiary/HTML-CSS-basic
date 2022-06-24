@@ -18,15 +18,7 @@
     color:var(--blue);
   }
   .nav__notification {
-    background-color: red;
-    width: 25px;
-    height: 25px;
-    display: flex;
-    border-radius:12.5px;
-    justify-content: center;
-    align-items:center;
-    color:white;
-    font-weight: 600;
+    
     position:absolute;
     bottom:15px;
     left:15px;
