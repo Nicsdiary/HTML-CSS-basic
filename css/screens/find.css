@@ -101,8 +101,13 @@
   font-size: 12px;
 }
 .open-post__heart-count i{
+    will-change: transform;
     background-color: transparent;
     color: whitesmoke;
+    animation:heartBeat 1s linear infinite;
+}
+.open-post__heart-count i:hover {
+    animation:heartBeat 0.2s linear infinite;
     
 }
 
@@ -110,7 +115,24 @@
     margin-left:3px;
     background-color: transparent;
     color: whitesmoke;
-    
+}
+
+@keyframes heartBeat {
+0% {
+    opacity: 0;
+    color:whitesmoke;
+    transform:none;
+}
+50% {
+    opacity: 1;
+    color: red;
+    transform:scale(2)
+}
+100% {
+    opacity: 0;
+    color: whitesmoke;
+    transform:none;
+}
 }
 .open-post-all {
     display: flex;
