@@ -34,3 +34,6 @@
     flex-direction: row;
     color: #50606e74;
   }
+  .friends-screen__channel-header i {
+    padding-left:5px;
+  }

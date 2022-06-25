@@ -50,3 +50,17 @@
     bottom:20px;
     left:70px;
   }
+
+  .nav__notification4 {
+    background-color: red;
+    width: 7px;
+    height: 7px;
+    display: flex;
+    border-radius:3.5px;
+    justify-content: center;
+    align-items:center;
+    font-weight: 600;
+    position:absolute;
+    bottom:20px;
+    left:115px;
+  }
